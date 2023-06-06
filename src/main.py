@@ -8,12 +8,11 @@ def main():
         num_epochs=16,
         learning_rate=0.01,
         dataset_paths={
-            'train_path': 'D:/train',  # 'E:/İndirmeler/temp/ILSVRC/Data/CLS-LOC/train',
+            'train_path': 'D:/train',
         },
         start_num_samples=1024,
         sample_multiplier=4,
         normal_model_epoch=64,
-        # load_subset_model=True,
     )
     start_time = time()
     image_classifier.run_test()
